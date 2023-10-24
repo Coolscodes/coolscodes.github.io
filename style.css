@@ -1,0 +1,37 @@
+body, html { 
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+
+}
+
+.btn-color {
+padding: 1rem 2rem;
+font-weight: 700;
+border-radius: 300px;
+text-transform: uppercase;
+background-color: darkgreen;
+border-color: darkseagreen;
+}
+.btn-primary{
+    --bs-btn-hover-bg: darkgreen; 
+    --bs-btn-hover-border-color:darkgreen;
+}
+.btn-primary:hover {
+  background-color: darkgreen;
+  border-width: 10px;
+}
+
+.buffer {
+  height: 10rem;
+}
